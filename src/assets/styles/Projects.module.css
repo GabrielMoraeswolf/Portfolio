@@ -21,16 +21,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10%;
-    font-family: sans-serif;
+    padding: 5% 10%;
+    font-family: Verdana;
+    
    }
-   
+   .aboutMeText {
+      padding: 5% 12%;
+   }
+   .aboutMeTraje{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 12%;
+   }
    .certificados {
     
     background: linear-gradient(#00594F, #008071);
     color: aliceblue;
     padding: 3%;
-    font-family: sans-serif;
+    font-family: Verdana;
    }
    
    .footer {
@@ -39,11 +48,59 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    color: turquoise;
-    font-family: sans-serif;
-    padding: 5%;
+    color: #40e0d0;
+    font-family: Verdana;
+    padding: 3% 20%;
     font-size: 25px;
    }
    .aws{
       padding: 4%;
    }
+
+   .buttonList {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      list-style: none;
+      padding: 0;
+     }
+     
+     .buttonList li a {
+      display: block;
+      font-size: 24px;
+      transition: transform 0.3s;
+     }
+     
+     .buttonList li a:hover {
+      transform: scale(1.3);
+     }
+
+     .buttonListHeader {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 35px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+     .buttonContainer {
+      display: inline-block;
+      background-color: #e0e0e0; /* Cor de fundo do retângulo */
+      padding: 10px; /* Espaçamento interno */
+      border-radius: 10px; 
+      margin: 15px;
+      transition: background-color 0.3s;
+    }
+    .buttonContainer:hover {
+      background-color: #c0c0c0;
+      transform: scale(1.1); 
+    }
+    
+    .buttonRect {
+      text-decoration: none;
+      color: #333; /* Cor do texto do botão */
+      font-weight: bold; /* Negrito */
+      font-size: 16px; 
+      font-family: Verdana;
+    }

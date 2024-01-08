@@ -5,7 +5,7 @@ import styles from '../assets/styles/Projects.module.css';
 const Certificados = () => {
     return (
         <div className={styles.certificados}>
-            <h3>Certificados</h3>
+            <h3 id="certificados">Certificados</h3>
             <Carousel />
             <div className={styles.aws}>
              <AWSCarousel />
