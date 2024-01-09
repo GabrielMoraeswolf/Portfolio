@@ -61,34 +61,30 @@
    .aws{
       padding: 4%;
    }
-   
-
    .buttonList {
       display: flex;
       justify-content: space-around;
       width: 100%;
       list-style: none;
       padding: 0;
-     }
-     
-     .buttonList li a {
+   }     
+   .buttonList li a {
       display: block;
       font-size: 24px;
       transition: transform 0.3s;
-     }
-     
-     .buttonList li a:hover {
+   }     
+   .buttonList li a:hover {
       transform: scale(1.3);
-     }
+   }
 
-     .buttonListHeader {
+   .buttonListHeader {
       list-style: none;
       padding: 0;
       margin: 0;
       margin-bottom: 35px;
       display: flex;
       justify-content: space-around;
-    }
+  }
 
      .buttonContainer {
       display: inline-block;
@@ -120,6 +116,18 @@
       width: auto; /* Mantenha a proporção original da imagem */
       max-height: 350px; /* Defina a altura máxima desejada */
       max-width: 100%; /* Garanta que a imagem não ultrapasse a largura do contêiner */
+    }
+    .linkProject{
+      background-color: #35CC86;
+      color: #333;
+      padding: 5px;
+      
+      font-size: 16px;
+      font-family: Verdana;
+      border-radius: 5px;
+    }
+    .linkContaier{
+      margin: 15px;
     }
 
     @media screen and (max-width: 768px) {
@@ -161,6 +169,6 @@
 
       .slick-slide img {
         max-height: 200px; /* Tamanho máximo para telas menores */
-        max-width: 200px;
+     
       }
     }

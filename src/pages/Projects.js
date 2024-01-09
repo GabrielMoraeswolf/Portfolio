@@ -12,26 +12,33 @@ const Projects = () => {
         require('../assets/project/ecomerce/2.png'),
         require('../assets/project/ecomerce/3.png'),
         require('../assets/project/ecomerce/4.png'),
-        // adicione mais imagens conforme necessário
+        
       ],
+      link: 'https://github.com/GabrielMoraeswolf/loginCompassUOL',
     },
     {
-      title: 'Projeto 2',
-      description: 'Descrição do Projeto 2...',
+      title: 'Geociências em Libras',
+      description: 'Neste projeto foi criada uma página Web em React, com vários botões que contem palavras muito comuns na Geologia e Geografia. Ao clicar em um dos botoes a pessoa é redirecionada a uma respectiva pagina onde haverá um GIF mostrando o sinal em libras correspondente.',
       images: [
-        require('../assets/project/ecomerce/1.png'),
-        require('../assets/project/ecomerce/2.png'),
-        require('../assets/project/ecomerce/3.png'),
-        require('../assets/project/ecomerce/4.png'),
-        // adicione mais imagens conforme necessário
+        require('../assets/project/librasGeo/1.png'),
+        require('../assets/project/librasGeo/2.png'),
       ],
+      link:'https://final-libras.vercel.app/',
     },
-    // adicione mais projetos conforme necessário
+    {
+      title: 'Lembretes',
+      description: 'Nesse projeto é criado uma API simples para criar novos bilhetes e os exibir em formato de Lista. Também é possível os remover separadamente ao clicar no botão "x", há algumas validações feitas como estar no formato (dd/mm/yyyy), passar datas validas e posteriores há data atual.',
+      images: [
+        require('../assets/project/lembrete/1.png'),
+        require('../assets/project/lembrete/2.png'),
+      ],
+      link:'https://lembretes-gamma.vercel.app/',
+    },
   ];
 
   return (
     <div className={styles.project}>
-      <h1>Meus Projetos</h1>
+      <h1 id="projetos">Meus Projetos</h1>
       {projectsData.map((project, index) => (
         <Project key={index} {...project} />
       ))}
