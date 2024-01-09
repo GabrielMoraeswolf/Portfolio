@@ -163,12 +163,12 @@
        }
        .descriptionProject{
 
-        font-size: 10px;
+        font-size: 14px;
         
        }
 
       .slick-slide img {
-        max-height: 200px; /* Tamanho máximo para telas menores */
+        max-height: 350px; /* Tamanho máximo para telas menores */
      
       }
     }
