@@ -28,7 +28,7 @@ const Carousel = () => {
     };
     const imageStyle = {
         maxHeight: '350px', // Defina a altura máxima desejada
-       
+        width: '100%',
     };
     return (
       <Slider {...settings}>

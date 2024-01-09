@@ -56,7 +56,11 @@ const About = () => {
             Este é o meu site que utilizo para me apresentar e mostrar minhas qualidades, especialidades e minhas experiências
             adquiridas em minha jornada aqui como desenvolvedor Jr.
           </p>        
-          <p>Veja meu portfólio</p>
+          <p>Veja meu 
+          <a className={styles.portfolioLink} href="#projetos">portfólio</a>
+            
+
+          </p>
       </div>   
       <ul className={styles.buttonList}>
         <li>

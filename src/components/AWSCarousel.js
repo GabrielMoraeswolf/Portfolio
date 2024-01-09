@@ -20,8 +20,8 @@ const AWSCarousel = () => {
       autoplaySpeed: 1000,
     };
     const imageStyle = {
-        maxHeight: '380px', // Defina a altura máxima desejada
-        
+        maxHeight: '350px', // Defina a altura máxima desejada
+        width: '100%',
        
     };
     return (
