@@ -1,13 +1,17 @@
 
    .project {
-    display: flex;
+    
     background: linear-gradient(#C9C9C9, #BFBFBF);
+    flex-direction:column;
     align-items: center;
-    flex-direction: column;
+    padding: 5% 20%;
     justify-content: center;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    font-family: Verdana;
+   }
+   .descriptionProject{
+    font-family: Verdana;
+    font-size: 14px;
+    
    }
    
    .projectCard {
@@ -23,6 +27,7 @@
     align-items: center;
     padding: 5% 10%;
     font-family: Verdana;
+    font-size: 16px;
     
    }
    .aboutMeText {
@@ -56,6 +61,7 @@
    .aws{
       padding: 4%;
    }
+   
 
    .buttonList {
       display: flex;
@@ -109,6 +115,12 @@
       padding: 2px;
       font-size: 16px;
     }
+    .projectImage {
+      height: 100%; /* Faça a imagem ocupar 100% da largura do contêiner pai */
+      width: auto; /* Mantenha a proporção original da imagem */
+      max-height: 350px; /* Defina a altura máxima desejada */
+      max-width: 100%; /* Garanta que a imagem não ultrapasse a largura do contêiner */
+    }
 
     @media screen and (max-width: 768px) {
       .aboutMe {
@@ -141,8 +153,14 @@
         padding: 3% 2%;
         font-size: 15px;
        }
+       .descriptionProject{
+
+        font-size: 10px;
+        
+       }
 
       .slick-slide img {
         max-height: 200px; /* Tamanho máximo para telas menores */
+        max-width: 200px;
       }
     }
