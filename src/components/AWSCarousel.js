@@ -14,14 +14,23 @@ const AWSCarousel = () => {
     const settings = {
       infinite: true,
       speed: 2500,
-      slidesToShow: 2,
+      slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 1000,
+      responsive: [
+        {
+          breakpoint: 768, // Largura de tela em que as configurações abaixo serão aplicadas
+          settings: {
+            slidesToShow: 1, // Altera a quantidade de slides exibidos para 2 em telas menores que 768px
+          }
+        }
+      ]
     };
     const imageStyle = {
         maxHeight: '350px', // Defina a altura máxima desejada
         width: '100%',
+
        
     };
     return (

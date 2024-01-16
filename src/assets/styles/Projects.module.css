@@ -11,7 +11,7 @@
    .descriptionProject{
     font-family: Verdana;
     font-size: 14px;
-    
+    font-weight: bold;
    }
    
    .projectCard {
@@ -32,6 +32,7 @@
    }
    .aboutMeText {
       padding: 5% 12%;
+      font-weight: bold;
    }
    .aboutMeTraje{
       display: flex;
@@ -128,6 +129,13 @@
     }
     .linkContaier{
       margin: 15px;
+      
+    }
+    .linkProject:hover{
+      background-color: #75d6a8;
+    }
+    .underline{
+      text-decoration: underline;
     }
 
     @media screen and (max-width: 768px) {
@@ -169,6 +177,6 @@
 
       .slick-slide img {
         max-height: 350px; /* Tamanho máximo para telas menores */
-     
       }
+      
     }

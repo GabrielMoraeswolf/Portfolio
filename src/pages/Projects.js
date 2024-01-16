@@ -38,7 +38,7 @@ const Projects = () => {
 
   return (
     <div className={styles.project}>
-      <h1 id="projetos">Meus Projetos</h1>
+      <h1 id="projetos" className={styles.underline}>Meus Projetos</h1>
       {projectsData.map((project, index) => (
         <Project key={index} {...project} />
       ))}

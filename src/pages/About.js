@@ -11,8 +11,8 @@ const About = () => {
 
   useEffect(() => {
     imgRef.current.animate(
-      { transform: ['translateY(10px)', 'translateY(0px)'] },
-      { duration: 1000, delay: 150 }
+      { transform: ['translateY(30px)', 'translateY(0px)'] },
+      { duration: 1500, delay: 450 }
     );
   }, []);
 
@@ -45,7 +45,8 @@ const About = () => {
       <img ref={imgRef} src={perfilImage} alt="Programmer" /> 
         
       <div className={styles.aboutMeText} style={{ textAlign: 'justify' }}>
-        <h2 id="sobreMim">Sobre mim</h2>
+        
+        <h2 id="sobreMim" className={styles.underline}>Sobre mim</h2>
           <p>
             Olá me chamo Gabriel Moraes, formado em Ciência da Computação pela Universidade Federal de Ouro Preto (UFOP),
             Sou desenvolvedor Front-end, atuo com a criação de software para Web e aplicativos mobile, além disso, busco 
@@ -85,7 +86,7 @@ const About = () => {
         </li>
       </ul>
       <div className={styles.aboutMeTraje}>
-        <h2 id="trajetoria">Trajetória</h2>        
+        <h2 id="trajetoria" className={styles.underline}>Trajetória</h2>        
           <h3>Desenvolvedor Mobile - React Native - AWS Cloud Services</h3>
             <h4>Março 2023 - Agosto 2023</h4>
             <ul>
