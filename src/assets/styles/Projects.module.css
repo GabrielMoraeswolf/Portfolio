@@ -137,6 +137,10 @@
     .underline{
       text-decoration: underline;
     }
+    .projectVideo{
+      width: 100%;
+  max-height: 450px;
+    }
 
     @media screen and (max-width: 768px) {
       .aboutMe {
@@ -179,4 +183,10 @@
         max-height: 350px; /* Tamanho máximo para telas menores */
       }
       
+      
+      .project {
+
+        padding: 5% ;
+
+       }
     }
