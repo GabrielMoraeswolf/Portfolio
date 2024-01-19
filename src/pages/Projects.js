@@ -5,13 +5,13 @@ import pokedexVideo from '../assets/video/pokedex.mp4';
 import superCarsVideo from '../assets/video/supercars.mp4';
 import librasVideo from '../assets/video/libras.mp4';
 import lembreteVideo from '../assets/video/lembretes.mp4';
-
+import ecomerceVideo from '../assets/video/ecomerce.mp4';
 const Projects = () => {
   const projectsData = [
     {
       title: 'Ecommerce CompassUOL',
       description: 'O objetivo deste projeto é desenvolver uma aplicação de e-commerce em React Native, onde o usuário deverá preencher todos os campos de login antes de prosseguir para a próxima tela. Caso o usuário não preencha os campos corretamente, serão exibidas mensagens de erro. Assim que o usuário se cadastrar com sucesso, ele será direcionado para a página inicial, onde serão exibidos alguns produtos. Em seguida, o usuário pode selecionar qualquer produto, escolher sua quantidade e adicioná-lo ao carrinho de compras. Por fim, dentro do carrinho de compras, o usuário pode retirar ou adquirir o produto. Outro objetivo deste projeto é criar uma aplicação intuitiva e amigável que garanta que o usuário forneça todas as informações necessárias na página de login e que a aplicação atenda aos principais requisitos listados pela equipe de UI/UX.',
-      video: ' ' ,
+      video: ecomerceVideo ,
       link: 'https://github.com/GabrielMoraeswolf/loginCompassUOL',
     },
     {
