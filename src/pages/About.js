@@ -5,7 +5,7 @@ import gitIcon from '../assets/icons/github.png';
 import linkedinIcon from '../assets/icons/linkedin.png';
 import instagramIcon from '../assets/icons/instagram.png';
 import emailIcon from '../assets/icons/envelope.png';
-
+import TechStack from '../components/TechStack';
 const About = () => {
   const imgRef = useRef(null);
 
@@ -87,8 +87,8 @@ const About = () => {
       </ul>
       <div className={styles.aboutMeTraje}>
         <h2 id="trajetoria" className={styles.underline}>Trajetória</h2>        
-          <h3>Desenvolvedor Mobile - React Native - AWS Cloud Services</h3>
-            <h4>Março 2023 - Agosto 2023</h4>
+        <h3>Desenvolvedor Mobile - React Native - AWS Cloud Services</h3>
+          <h4>Março 2023 - Agosto 2023</h4>
             <ul>
               <li>Deploy de aplicativos web e mobile.</li>
               <li>Prática do Scrum, realização de dailys e sprints.</li>
@@ -97,7 +97,11 @@ const About = () => {
               <li>Desenvolvimento de aplicações completas em React JS, React Native e Typescript.</li>
               <li>Desenvolvimento de Ecommerce em aplicativo mobile com React Native e Typescript.</li>
               <li>Experiência na configuração e manutenção de serviços AWS, como hospedagem, Amazon EC2, auto scaling, load balancers, entre outros.</li>
-            </ul> 
+            </ul>  
+      </div>
+      <div className={styles.containerTech}>
+        <h3>Algumas tecnologias que tenho trabalho recentemente:</h3>
+        <TechStack />
       </div>
     </div>
     
