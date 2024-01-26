@@ -86,6 +86,24 @@
       display: flex;
       justify-content: space-around;
   }
+  .buttonPDF{
+    background-color: #026ADB;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 3px solid #0225DB; /* Adiciona um contorno com borda mais grossa */
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease; /* Adiciona transições suaves */
+}
+
+  .buttonPDF:hover {
+    background-color: #02AEDB;
+    border: 3px solid #0225DB; /* Altera a cor do contorno ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1); 
+  }
 
      .buttonContainer {
       display: inline-block;
@@ -139,7 +157,7 @@
     }
     .projectVideo{
       width: 100%;
-  max-height: 450px;
+      max-height: 450px;
     }
 
     .techStack {
@@ -209,5 +227,8 @@
 
         padding: 5% ;
 
+       }
+       .buttonPDF{
+        margin-top: 45px;
        }
     }

@@ -6,6 +6,8 @@ import linkedinIcon from '../assets/icons/linkedin.png';
 import instagramIcon from '../assets/icons/instagram.png';
 import emailIcon from '../assets/icons/envelope.png';
 import TechStack from '../components/TechStack';
+import DownloadButton from '../components/DownloadButton';
+
 const About = () => {
   const imgRef = useRef(null);
 
@@ -102,6 +104,9 @@ const About = () => {
       <div className={styles.containerTech}>
         <h3>Algumas tecnologias que tenho trabalho recentemente:</h3>
         <TechStack />
+      </div>
+      <div >
+        <DownloadButton />
       </div>
     </div>
     
