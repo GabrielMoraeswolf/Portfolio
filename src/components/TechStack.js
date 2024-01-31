@@ -10,6 +10,7 @@ import nextIcon from '../assets/icons/data/nextjs.png';
 import nodeIcon from '../assets/icons/data/node.png';
 import typescriptIcon from '../assets/icons/data/typescript.png';
 import vitestIcon from '../assets/icons/data/vitest.png';
+import angularIcon from '../assets/icons/data/angular.png';
 
 const TechStack = () => {
   const technologies = [
@@ -17,6 +18,7 @@ const TechStack = () => {
     { name: 'React Native', icon: reactIcon},
     { name: 'Javascript', icon: javascriptIcon },
     { name: 'Typescript', icon: typescriptIcon },
+    { name: 'Angular', icon: angularIcon },
     { name: 'Next.JS', icon: nextIcon},
     { name: 'Node.JS', icon:  nodeIcon},   
     { name: 'Nest.JS', icon: nestIcon},
